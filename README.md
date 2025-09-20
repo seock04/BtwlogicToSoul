@@ -12,3 +12,8 @@
 ## 전문코치되기(Coaching)
 
 ## 문과탐험(Humanities)
+
+
+## Git 설정
+ * kakao 나와의 대화방 확인
+
