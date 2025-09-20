@@ -11,6 +11,15 @@ git remote set-url origin https://<TOKEN>@github.com/USERNAME/REPO.git이 폴더
 - 글 내부의 **작성 완료** 날짜가 비어 있으면, 파일명 날짜와 제목 사이에 `NotYet`을 추가합니다.
 	- 예시: `20250920_NotYet_문과탐험 제목.md`
 
+
+
+## 태그 작성 규칙
+
+- 태그는 띄어쓰기 없이 붙여써야 하며, 여러 단어로 이루어진 경우에도 모두 붙여서 작성합니다.
+	- 예시: 말이많은고객, 요약정리, 전문코치
+- 태그는 각 태그 앞에 #을 붙여, 파일의 마지막 줄에 한 줄로 작성합니다.
+	- 예시: #코칭 #말이많은고객 #구조화
+
 ## 글 작성 템플릿
 
 ```markdown
@@ -22,7 +31,5 @@ git remote set-url origin https://<TOKEN>@github.com/USERNAME/REPO.git이 폴더
 ## 본문
 여기에 본문 내용을 작성하세요.
 
-## 태그
-- 태그1
-- 태그2
+#태그1 #태그2
 ```
